@@ -4,7 +4,7 @@ namespace ABCDebo\Menu\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
-use NguyenHuy\Menu\ABCDeboMenu;
+use ABCDebo\Menu\ABCDeboMenu;
 
 class MenuServiceProvider extends ServiceProvider
 {
