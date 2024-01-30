@@ -1,0 +1,38 @@
+{
+  "name": "abcdebo/laravel-bootstrap-menu",
+  "description": "drag and drop menu generator for laravel",
+  "keywords": [
+    "Laravel",
+    "Menu",
+    "Bootstrap",
+    "Builder"
+  ],
+  "authors": [
+    {
+      "name": "Debo",
+      "email": "mailto.abcdebo@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "5.* || 6.* || 7.* || 8.* || 9.* || 10.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ABCDebo\\Menu\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ABCDebo\\Menu\\Providers\\MenuServiceProvider"
+      ],
+      "aliases": {
+        "Menu": "ABCDebo\\Menu\\Facades\\Menu"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
